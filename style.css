@@ -30,7 +30,8 @@ body{
 }
 .btn_promo{
     width: 304px;
-    padding-block: 15px;
+    height: 51px;
+    
     padding-inline: 32px;
     background-color: #69B42E;
     color: #ffffff;
@@ -110,6 +111,7 @@ margin-bottom: 64px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 .promo_block_1_text_1{
     font-family: Roboto-Light;
@@ -135,6 +137,16 @@ margin-bottom: 64px;
     padding-inline: 12px;
     padding-block: 8px;
 }
+.promo_block_1_feature:hover{
+    font-family: Roboto-Light;
+    font-size: 18px;
+    background-color: #CCCCCC;
+    color: #1A1A1A;
+    border: 1px solid #FFFFFF;
+    border-radius: 80px;
+    padding-inline: 12px;
+    padding-block: 8px;
+}
 .promo_block_1_text_3{
     width: 442px;
     font-family: Roboto-Light;
@@ -145,11 +157,14 @@ margin-bottom: 64px;
 .promo_block_1_link{
     color: #69B42E;
 }
+.promo_block_1_link:hover{
+    color: #80BF4D;
+}
 .promo_block_2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 498px;
+    justify-content: center;
     width: 368px;
     padding-block: 40px;
     border-radius: 10px;
@@ -211,10 +226,10 @@ margin-bottom: 64px;
     gap: 32px;
 }
 .components_item{
-background-color: #F2F2F2;
-height: 616px;
-width: 569px;
-border-radius: 32px;
+    background-color: #F2F2F2;
+    height: 616px;
+    width: 569px;
+    border-radius: 32px;
 }
 .components_image_1{
     position: relative;
