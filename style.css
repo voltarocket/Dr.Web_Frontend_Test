@@ -44,8 +44,6 @@ body{
     background-color: #80BF4D;
 }
 
-
-
 .header{
     display: flex;
     flex-direction: column;
@@ -69,9 +67,9 @@ body{
     margin-bottom: 32px;
 }
 .sale{
-display: flex;
-justify-content: center;
-padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
 }
 .sale_rectangle{
     background-color: #F2F2F2;
@@ -159,6 +157,10 @@ padding-bottom: 64px;
 }
 .promo_title-link{
     color: #69B42E;
+    width: 102px;
+}
+.promo_title-link:hover{
+    color: #80BF4D;
 }
 .promo_card{
     display: flex;
@@ -289,11 +291,11 @@ padding-bottom: 64px;
     align-items: center;
   }
   .modal-content {
-    border-radius: 8px;
+    border-radius: 32px;
     height: 658px;
     width: 1141px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    position: relative; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
   }
   .no-scroll {
     overflow: hidden; 
