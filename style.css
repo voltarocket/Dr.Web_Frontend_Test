@@ -289,8 +289,12 @@ padding-bottom: 64px;
     align-items: center;
   }
   .modal-content {
-    border-radius: 32px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    height: 658px;
+    width: 1141px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    position: relative; 
   }
   .no-scroll {
     overflow: hidden; 
@@ -370,7 +374,6 @@ padding-bottom: 64px;
     }
     .footer_description {
         width: 224px;
-        margin: ;
     }
 }
 
@@ -403,8 +406,6 @@ padding-bottom: 64px;
         width: 114.17px;
         bottom: 70px;
         left: 295px;
-    }
-    .promo{
     }
     .promo_block {
         flex-direction: column;
@@ -494,20 +495,63 @@ padding-bottom: 64px;
         bottom: 54.26px;
         left: 194px;
     }
-    .promo_block {
-        padding: 10px;
-        border-radius: 0;
+    .promo_block{
+       flex-direction: column;
+       border-radius: 0px;
+       width: 320px;
+       padding-inline: 12px;
+    }   
+    .promo_title{
+        width: 296px;
+    }
+    .promo_title_text--1{
+        margin-bottom: 32px;
     }
     .promo_title_text--2{
-        font-family: Roboto-Medium;
-        color: #FFFFFF;
         font-size: 24px;
     }
-    .promo_card{
-
+    .promo_title-features{
+        justify-content: center;
+        gap: 12px;
     }
-    .promo_card-title {
-        text-align: center;
+    .promo_title-description{
+        width: 296px;
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    .promo_title-link{
+        color: #69B42E;
+    }
+    .promo_card{
+        width: 296px;
+    }
+    .promo_card-image{
+        width: 296px;
+    }
+    .promo_card-title{
+        width: 232px;
+        padding-bottom: 24px;
+    }
+    .promo_card_title--1{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .promo_card_title--2{
+        font-size: 16px;
+        margin: 0;
+    }
+    .promo_card-description{
+        gap: 90px;
+        padding-bottom: 24px;
+        margin: 0;
+    }
+    .promo_card-nds{
+        font-family: Roboto-Light;
+        font-size: 14px;
+        color: #1A1A1A;
+    }
+    .btn_promo{
+        width: 232px;
     }
     .components{
         padding-inline: 16px;
@@ -520,16 +564,17 @@ padding-bottom: 64px;
     .components_item{
         height: 210px;
         width: 296px;
+        padding-bottom: 22px;
     }
     .components_image_1{
         width: 120px;
-        left: 150px;
+        left: 177px;
         top: -62px;
     }
     .components_image_2{
         width: 120px;
-        left: 230px;
-        top: -130px;
+        left: 180px;
+        top: -125px;
     }
     .components_text {
         padding: 36px;
@@ -543,7 +588,11 @@ padding-bottom: 64px;
     .footer {
         padding: 10px;
     }
+    .footer_block{
+        padding-top: 40px;
+    }
     .footer_description {
         font-size: 12px;
+        width: 296px;
     }
 }
